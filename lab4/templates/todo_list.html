@@ -1,0 +1,23 @@
+{%  extends "layout.html" %}
+
+{% block body %}
+    <h1>Tasks in {{name}}</h1>
+    <table>
+        <tr>
+            <th>Task</th>
+            <th>Created</th>
+            <th>Due on</th>
+            <th>Owner</th>
+            <th>Mark</th>
+        </tr>
+        {% for task in tasks %}
+            <tr>
+                <td><a href="">{{ task.name }}</a></td>
+                <td>{{ task.dateOfCreation }}</td>
+                <td>{{ task.deadlineDate }}</td>
+                <td>{{ task.ownerName }}</td>
+                <td> <p id="donornot"> Not Done </p></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

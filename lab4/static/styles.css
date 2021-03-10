@@ -1,0 +1,73 @@
+.container {
+    margin-left: 350px;
+}
+button {
+    border-radius: 5px;
+    padding: 10px 16px;
+    margin-top: 5px;
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+}
+.dj {
+    background-color: #181616;
+    font-size: 18px;
+    padding: 2px 7px;
+    color: azure;
+}
+
+#donornot {
+    background-color: #008CBA;;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+#red {
+    background-color: #f44336;
+    color: white;
+}
+
+#blue {
+    background-color: #008CBA;
+    color: white;
+}
+
+#yellow {
+    background-color: #FF8C00;
+    color: black;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+tr {
+    border: solid;
+    border-width: 1px 0;
+}
+
+td, th {
+    text-align: center;
+    vertical-align: middle;
+}
